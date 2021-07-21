@@ -1,6 +1,6 @@
 body {
   font-family: Montserrat, monospace;
-  background-color: white;
+  padding-top: 100px;width:100vw;background-color:#f0f0f0;
 }
 h1 {
   font-size: 1.6em;
@@ -51,9 +51,21 @@ a {
   height: 3em;
   line-height: 3;
 }
+.home {
+  margin-top: 60px;
+  margin-left: 96px;
+  margin-bottom: 96px;
+  margin-right:96px;
+  text-align: center;
+}
+.home:hover {
+  color: red
+}
 a:hover {
     border-bottom: 2px solid red;
     background-color: #2d4463;
-    color: #cad8ec;
-  }
-* {box-sizing: border-box;}body{font-family:sans-serif;padding-top: 100px;width:100vw;background-color:#f2f2f2;}
+    color: white;
+}
+* {
+  box-sizing: border-box;
+}
