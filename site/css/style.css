@@ -1,6 +1,8 @@
 body {
   font-family: Montserrat, monospace;
-  padding-top: 100px;width:100vw;background-color:#f0f0f0;
+  padding-top: 100px;
+  width:100vw;
+  background-color: #dddddd;
 }
 h1 {
   font-size: 1.6em;
@@ -8,6 +10,7 @@ h1 {
   font-family: Montserrat, monospace;
   text-align: center;
   margin-bottom: 60px;
+  color: #1a2638;
 }
 p {
   font-family: Montserrat, monospace;
@@ -18,7 +21,7 @@ p {
   background-color: #1a2638;
   padding: 30px;
   border-radius: 20px;
-  color: #cad8ec;
+  color: white;
   line-height: 1.75em;
 }
 .nav-horizontal {
@@ -58,8 +61,13 @@ a {
   margin-right:96px;
   text-align: center;
 }
-.home:hover {
-  color: red
+.home a {
+  color: #808080;
+}
+.home a:hover {
+  color: red;
+  background-color: #dddddd;
+  border-bottom-color: #dddddd;
 }
 a:hover {
     border-bottom: 2px solid red;
